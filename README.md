@@ -6,9 +6,9 @@ ___
 
 Considering this is an old project, it is not easy to clean up the whole project. We simpliy our code and release the caption generation module. 
 
-Specifically, we modified the code by removing the part of extracting CNN feature from optical flow images, so that one can download the Volleyball dataset and run the code directly (no need to generate optical flow images).
+Specifically, we modified the code by **removing the part of extracting CNN feature from optical flow images**, so that one can download the Volleyball dataset and run the code directly (no need to generate optical flow images).
 
-After getting the generated image captions, one can easily predict human activity labels based on these captions using a CNN model (Here is a [demo code](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)). 
+After getting the generated image captions, one can easily predict human activity labels based on these captions using a CNN model (here is a [demo code](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)). 
  
 To run the code:
 1. Download Volleyball dataset and unzip it. (path: <Volleyball_data_path>) 
